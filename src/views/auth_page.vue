@@ -1,13 +1,11 @@
 <template>
-$END$
+  <div></div>
 </template>
 
 <script>
 export default {
-name: "auth_page"
-}
+  name: "auth_page",
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
