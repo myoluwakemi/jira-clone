@@ -40,7 +40,7 @@
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
           <a href="#">Forgot Password</a>
-          <button>Sign in</button>
+          <button @click="$router.push('/dashboard')">Sign in</button>
         </form>
       </div>
       <div id="overlayContainer" class="overlay-container">
