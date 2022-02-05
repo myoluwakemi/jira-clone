@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 
 
 }
@@ -34,6 +34,7 @@ body{
 h1{
   font-weight: bold;
   margin: 0;
+
 }
 p{
   font-size: 14px;
@@ -64,7 +65,8 @@ a{
 
 }
 .form-container form{
-  background: #fff;
+  background: #fff
+;
   display: flex;
   flex-direction: column;
   padding: 0 50px;
@@ -73,6 +75,10 @@ a{
   align-items: center;
   text-align: center;
   width: 100%;
+  h1, span{
+    color: #16181D
+  }
+
 
 
 }
@@ -101,8 +107,8 @@ a{
 }
 .wrapper button{
   border-radius: 20px;
-  border: 1px solid #ff4b2b;
-  background: #ff4b2b;
+  border: 1px solid #0C1635;
+  background: #0C1635;
   color: #fff;
   padding: 12px 45px;
   font-size: 12px;
@@ -156,8 +162,8 @@ a{
 }
 .overlay{
   position: relative;
-  background: #ff416c;
-  background: linear-gradient(to right, #ff4b2b, #ff416c ) no-repeat 0 0 / cover;
+  background: #0C1635;
+  background: linear-gradient(to right,#16181D,#0C1635 ) no-repeat 0 0 / cover;
   color: #fff;
   left: -100%;
   width: 200%;
